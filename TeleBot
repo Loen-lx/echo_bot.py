@@ -1,5 +1,5 @@
 import telebot
-bot = telebot.TeleBot("1612376399:AAFjplXKvOQBxyEEcIar-Ean8wQidZM77hM", parse_mode=One1)
+bot = telebot.TeleBot("1707255494:AAGkNT85UZ4kSpx0gx0zORyjcxk1-vq7v0U", parse_mode=One1)
 @ceshitelebot.message_handler（commands = [ 'start'，'help' ]）
 def send_welcome(message):
   bot.reply_to(message, "Howdy, how are you doing?")
